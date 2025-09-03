@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [step, setStep] = useState(1);
+  const [step, _setStep] = useState(1);
 
   return (
     <div className="app">
